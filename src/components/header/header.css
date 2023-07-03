@@ -36,14 +36,9 @@ header {
     background: var(--color-primary);
 }
 
+
 /* ME */
-/* .me {
-    background: var(--color-primary);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-} */
+
 
 /* SCROLL DOWN */
 .scroll__down {
@@ -62,14 +57,14 @@ header {
     }
 }
 
-/* MEDIA QUERIES (MEDIUM DEVICES) */
+/* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
     }
 }
 
-.header__socials,
+/* .header__socials,
 .scroll__down {
     display: none;
-}
+}  */
